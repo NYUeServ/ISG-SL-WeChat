@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aabad24a1bd152108ef92f81b24bcb1d" extends="sys_import_set_row" label="Import" max_length="40" name="x_neyu_wechat_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Symptom" label="Symptom" max_length="100" name="u_symptom" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short Description" label="Short Description" max_length="160" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="4000" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Contact Type" label="Contact Type" max_length="40" name="u_contact_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Service" label="Service" max_length="100" name="u_service" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Net ID" label="Net ID" max_length="40" name="u_net_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ticket Number" label="Ticket Number" max_length="40" name="u_ticket_number" type="string"/>
+    </element>
+</database>
