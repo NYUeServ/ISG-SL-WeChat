@@ -8,7 +8,7 @@
 	// if a Ticket Number is present, we are updating an existing
 	// ticket and should not be creating a new incident
 	ignore = false;
-	if (gs.nil(source.u_ticket_number)) {
+	if (!gs.nil(source.u_ticket_number)) {
 		ignore = true;
 	}
 
@@ -17,14 +17,14 @@
         <sys_created_by>ab7289</sys_created_by>
         <sys_created_on>2024-10-18 20:44:57</sys_created_on>
         <sys_id>b3af1a021b1552108ef92f81b24bcbb9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>onBefore</sys_name>
         <sys_package display_value="WeChat" source="x_neyu_wechat">d1385e861b15d6103f31a9b6624bcb4e</sys_package>
         <sys_policy/>
         <sys_scope display_value="WeChat">d1385e861b15d6103f31a9b6624bcb4e</sys_scope>
         <sys_update_name>sys_transform_script_b3af1a021b1552108ef92f81b24bcbb9</sys_update_name>
         <sys_updated_by>ab7289</sys_updated_by>
-        <sys_updated_on>2024-10-18 20:44:57</sys_updated_on>
+        <sys_updated_on>2024-10-21 17:20:32</sys_updated_on>
         <when>onBefore</when>
     </sys_transform_script>
 </record_update>
