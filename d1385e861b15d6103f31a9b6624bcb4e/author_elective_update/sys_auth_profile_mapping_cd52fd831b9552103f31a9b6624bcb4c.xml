@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_mapping">
+    <sys_auth_profile_mapping action="DELETE">
+        <api_access_policy display_value="WeChat Import API">5e223d831b9552103f31a9b6624bcb65</api_access_policy>
+        <inbound_auth_profile display_value="OAuth token">a2985637670210101e2becccb585ef47</inbound_auth_profile>
+        <sys_class_name>sys_auth_profile_mapping</sys_class_name>
+        <sys_created_by>ab7289</sys_created_by>
+        <sys_created_on>2024-10-21 19:58:49</sys_created_on>
+        <sys_id>cd52fd831b9552103f31a9b6624bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WeChat" source="x_neyu_wechat">d1385e861b15d6103f31a9b6624bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WeChat">d1385e861b15d6103f31a9b6624bcb4e</sys_scope>
+        <sys_update_name>sys_auth_profile_mapping_cd52fd831b9552103f31a9b6624bcb4c</sys_update_name>
+        <sys_updated_by>ab7289</sys_updated_by>
+        <sys_updated_on>2024-10-21 19:58:49</sys_updated_on>
+    </sys_auth_profile_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="WeChat">d1385e861b15d6103f31a9b6624bcb4e</application>
+        <file_path/>
+        <instance_id>58b11994db81b010c6e711f84896190f</instance_id>
+        <instance_name>nyudev2</instance_name>
+        <name>sys_auth_profile_mapping_cd52fd831b9552103f31a9b6624bcb4c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_mapping"><sys_auth_profile_mapping action="INSERT_OR_UPDATE"><api_access_policy display_value="WeChat Import API">5e223d831b9552103f31a9b6624bcb65</api_access_policy><inbound_auth_profile display_value="OAuth token">a2985637670210101e2becccb585ef47</inbound_auth_profile><sys_class_name>sys_auth_profile_mapping</sys_class_name><sys_created_by>ab7289</sys_created_by><sys_created_on>2024-10-21 19:58:49</sys_created_on><sys_id>cd52fd831b9552103f31a9b6624bcb4c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="WeChat" source="x_neyu_wechat">d1385e861b15d6103f31a9b6624bcb4e</sys_package><sys_policy/><sys_scope display_value="WeChat">d1385e861b15d6103f31a9b6624bcb4e</sys_scope><sys_update_name>sys_auth_profile_mapping_cd52fd831b9552103f31a9b6624bcb4c</sys_update_name><sys_updated_by>ab7289</sys_updated_by><sys_updated_on>2024-10-21 19:58:49</sys_updated_on></sys_auth_profile_mapping></record_update>]]></payload>
+        <payload_hash>-832248008</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0253494f1b1d12108ef92f81b24bcb86</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ab7289</sys_created_by>
+        <sys_created_on>2024-10-21 19:58:54</sys_created_on>
+        <sys_id>6162f9c31b9552103f31a9b6624bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b0a93f730000001</sys_recorded_at>
+        <sys_updated_by>ab7289</sys_updated_by>
+        <sys_updated_on>2024-10-21 19:58:54</sys_updated_on>
+        <type>Inbound authentication profile</type>
+        <update_guid>2562f9c3ab955210ce4fb5de5357d231</update_guid>
+        <update_guid_history>2562f9c3ab955210ce4fb5de5357d231:-832248008</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ab7289</sys_created_by>
+        <sys_created_on>2024-10-22 14:12:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_auth_profile_mapping">sys_auth_profile_mapping</sys_db_object>
+        <sys_id>059b71b2058f4690824c65181fd53240</sys_id>
+        <sys_metadata>cd52fd831b9552103f31a9b6624bcb4c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WeChat" source="x_neyu_wechat">d1385e861b15d6103f31a9b6624bcb4e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="WeChat">d1385e861b15d6103f31a9b6624bcb4e</sys_scope>
+        <sys_scope_delete display_value="">6102239fb7004dd5a61f582978f43699</sys_scope_delete>
+        <sys_update_name>sys_auth_profile_mapping_cd52fd831b9552103f31a9b6624bcb4c</sys_update_name>
+        <sys_update_version display_value="sys_auth_profile_mapping_cd52fd831b9552103f31a9b6624bcb4c">6162f9c31b9552103f31a9b6624bcb32</sys_update_version>
+        <sys_updated_by>ab7289</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:12:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
