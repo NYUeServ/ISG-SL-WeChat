@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Wechat Comment Task">660ad5c31b1152108ef92f81b24bcbae</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	ignore = true;
+	if (!gs.nil(source.u_ticket_number)) {
+		ignore = false;
+	}
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>ab7289</sys_created_by>
+        <sys_created_on>2024-10-21 18:14:00</sys_created_on>
+        <sys_id>2b1ad5871b5152103f31a9b6624bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="WeChat" source="x_neyu_wechat">d1385e861b15d6103f31a9b6624bcb4e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WeChat">d1385e861b15d6103f31a9b6624bcb4e</sys_scope>
+        <sys_update_name>sys_transform_script_2b1ad5871b5152103f31a9b6624bcb6c</sys_update_name>
+        <sys_updated_by>ab7289</sys_updated_by>
+        <sys_updated_on>2024-10-21 18:14:00</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>
