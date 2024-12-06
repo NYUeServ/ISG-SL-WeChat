@@ -68,7 +68,7 @@
         <update_guid_history>06bd12adeda552502e67625a030fdf40:470655726,f43dd26dada552501b8e8e5ea0a6e7c0:-1966715816</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="OAuth Tokens">743edead1ba552503f31a9b6624bcb3f</sys_audit_delete>
+        <sys_audit_delete display_value="">743edead1ba552503f31a9b6624bcb3f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>ab7289</sys_created_by>
         <sys_created_on>2024-10-29 17:35:05</sys_created_on>
