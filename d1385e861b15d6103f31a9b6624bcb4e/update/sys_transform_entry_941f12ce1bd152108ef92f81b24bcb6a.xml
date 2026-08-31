@@ -5,7 +5,7 @@
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
-        <map display_value="WeChat to Incident">8bcb5e8a1bd152108ef92f81b24bcb70</map>
+        <map display_value="WeChat Create Incident">8bcb5e8a1bd152108ef92f81b24bcb70</map>
         <reference_value_field>user_name</reference_value_field>
         <source_field>u_net_id</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
