@@ -4,6 +4,8 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <federated_id>k1iWxurHMlep5c6QAd1hj99Ey4em0qlK3HFJnojIfYs=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_neyu_wechat.import_user</name>
